@@ -6,9 +6,15 @@ main:
   - name: "About"
     url: "/about/"
     weight: 1
+    dropdown:
+      - name: "About Me"
+        url: "/about/about-me/"
+      - name: "About Kinetic Zenergy"
+        url: "/about/kinetic-zenergy/"
   - name: "Contact"
     url: "/contact/"
     weight: 3
+
 
 footer:
   - name: "Home"
