@@ -8,7 +8,7 @@ main:
     weight: 1
         dropdown:
       - name: "About Me"
-        url: "/about/about-me/"
+        link: ""/about/about-me/""
   - name: "Contact"
     url: "/contact/"
     weight: 3
