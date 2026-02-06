@@ -61,6 +61,35 @@ $sub-footer-text-color: $white;
 @import 'pages/team/team-summary';
 @import 'pages/services/page-services-single';
 
+/* Ensure the main menu items are always visible */
+.main-menu {
+  display: flex !important;
+  visibility: visible !important;
+}
+
+.menu-item {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hide only the dropdown, not the whole menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 15px;
+  min-width: 200px;
+  z-index: 999;
+}
+
+/* Show dropdown on hover */
+.menu-item:hover .dropdown-menu {
+  display: block;
+}
+
 body {
   font-size: 16px;
   line-height: 1.2;
