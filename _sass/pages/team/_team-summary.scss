@@ -34,9 +34,6 @@
 }
 
 .team-summary-large {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
   background-color: $white-offset;
   padding: 30px;
   border-radius: 3px;
