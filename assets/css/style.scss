@@ -96,7 +96,8 @@ body {
   margin-bottom: 3rem;  /* adds space beneath the form */
 }
 
-.team-content {
+.team-content,
+.team-description {
   word-wrap: break-word; /* Break long words */
   overflow-wrap: break-word;
 }
