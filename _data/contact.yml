@@ -1,2 +1,5 @@
-email: 'kinetic7energy@gmail.com'
-contact_button_link: 'contact'
+title: Contact
+description: Get in touch
+button:
+  label: "Learn More"
+  link: /contact/
