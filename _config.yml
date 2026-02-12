@@ -5,7 +5,7 @@ title: 'Kinetic Zenergy by Alex Miller'
 google_analytics_id: ""
 
 homepage:
-  show_call_box: true
+  show_call_box: false
 
 logo:
   mobile: "images/logo/logo-mobile.png"
