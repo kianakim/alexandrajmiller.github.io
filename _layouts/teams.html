@@ -22,8 +22,8 @@ bodyClass: page-team-list
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
-        <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
+        <div class="col-12 col-md-6 mb-2 d-flex">
+            <div class="team team-summary team-summary-large flex-fill d-flex flex-column">
                 {% if team.image %}
                 <div class="team-image">
                     <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
@@ -36,7 +36,7 @@ bodyClass: page-team-list
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.excerpt | truncate: 750 }}</div>
+                <div class="team-content">{{ team.excerpt | truncate: 1000 }}</div>
             </div>
         </div>
         {% endfor %}
