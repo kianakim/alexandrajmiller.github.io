@@ -5,9 +5,6 @@ description: This is a one-to-one coaching container designed to help high-perfo
 intro_image: "images/AlexandraMiller2025_small.jpg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
-  button:
-    label: "Contact Form"
-    url: "/contact/"
 ---
 
 # Engineer the Life You Desire
