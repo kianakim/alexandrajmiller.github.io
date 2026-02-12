@@ -3,6 +3,7 @@ title: "Dave"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 promoted: true
+jobtitle: “Alex provided a focused, empathetic space for miraculous healing, growth, and change to be possible.”
 weight: 4
 layout: team
 ---

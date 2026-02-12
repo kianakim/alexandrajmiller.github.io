@@ -2,6 +2,7 @@
 title: "Tupa"
 date: 2018-11-19T10:47:58+10:00
 draft: false
+jobtitle: “I truly believe these sessions have played a major role in helping her regain her strength.”
 promoted: true
 weight: 7
 layout: team

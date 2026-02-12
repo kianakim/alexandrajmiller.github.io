@@ -2,6 +2,7 @@
 title: "Angela"
 date: 2018-11-19T10:47:58+10:00
 draft: false
+jobtitle: “Even after 8 hours at work I came home in high spirits and cooked dinner for tonight and tomorrow.”
 promoted: true
 weight: 2
 layout: team

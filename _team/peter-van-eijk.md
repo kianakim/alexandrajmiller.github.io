@@ -3,6 +3,7 @@ title: "Angela"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 promoted: true
+jobtitle: “...I felt normal, now this may seem a little mundane, but to someone who has been living with cancer for 4 years, feeling normal is just beautiful!”
 weight: 1
 layout: team
 ---
