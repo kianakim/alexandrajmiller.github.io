@@ -1,9 +1,5 @@
 ---
-title: Contact
+title: Get in Touch
 layout: contact
 bodyClass: page-contact
 ---
-
-# Get in Touch
-
-Use the form below to set up a session.
