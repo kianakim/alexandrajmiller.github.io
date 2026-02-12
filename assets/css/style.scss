@@ -96,6 +96,11 @@ body {
   margin-bottom: 3rem;  /* adds space beneath the form */
 }
 
+.team-content {
+  word-wrap: break-word; /* Break long words */
+  overflow-wrap: break-word;
+}
+
 .team-description {
     font-family: 'Playfair Display', sans-serif; /* change to your preferred font */
     font-size: 1rem;                  /* adjust size */
