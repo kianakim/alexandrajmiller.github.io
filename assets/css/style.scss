@@ -95,20 +95,3 @@ body {
   padding: 2rem;        /* keeps the internal spacing */
   margin-bottom: 3rem;  /* adds space beneath the form */
 }
-
-/* Make team columns equal height */
-.team-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.team-row > div {
-  display: flex;
-}
-
-/* Make the pink card fill full height */
-.team-item {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
