@@ -95,3 +95,11 @@ body {
   padding: 2rem;        /* keeps the internal spacing */
   margin-bottom: 3rem;  /* adds space beneath the form */
 }
+
+.team-description {
+    font-family: 'Playfair Display', sans-serif; /* change to your preferred font */
+    font-size: 1rem;                  /* adjust size */
+    font-weight: 500;                  /* optional: light/medium/bold */
+    color: #660033;                    /* optional: change text color */
+    line-height: 1.4;                  /* spacing between lines */
+}
