@@ -2,37 +2,10 @@ baseurl: '/alexandrajmiller.github.io/'
 permalink: pretty
 title: 'Kinetic Zenergy by Alex Miller'
 
-colors:
-  # light
-  base_bg: "#ffffff"
-  base_bg_2: "#f8fafc"
-  base_bg_3: "#f1f5f9"
-  base_text: "#202020"
-  base_text_2: "#4b5563"
-  primary_bg: "#0504aa"
-  primary_bg_2: "#0504aa"
-  primary_bg_3: "#702bf7"
-  primary_text: "#fdfcf9"
-  header_text: "#2b3af7"
-  logo_text: "#2b3af7"
-
-  # dark
-  base_bg_dark: "#121212"
-  base_bg_2_dark: "#1e1e1e"
-  base_bg_3_dark: "#232323"
-  base_text_dark: "#ffffff"
-  base_text_2_dark: "#d7d7d7"
-  primary_bg_dark: "#0504aa"
-  primary_bg_2_dark: "#424ff8"
-  primary_bg_3_dark: "#0504aa"
-  primary_text_dark: "#fdfcf9"
-  logo_text_dark: "#ffffff"
-  header_text_dark: "#ffffff"
-
 google_analytics_id: ""
 
 homepage:
-  show_call_box: false
+  show_call_box: true
 
 logo:
   mobile: "images/logo/logo-mobile.png"
