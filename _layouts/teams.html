@@ -22,8 +22,8 @@ bodyClass: page-team-list
     <div class="row">
         {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
         {% for team in promoted_teams %}
-        <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
+        <div class="col-12 col-md-4 mb-2 d-flex">
+            <div class="team team-summary team-summary-large w-100">
                 <div class="team-content">{{ team.content | truncate: 1000 }}</div>
             </div>
         </div>
@@ -32,8 +32,8 @@ bodyClass: page-team-list
     <div class="row pt-6 pb-6">
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
+        <div class="col-12 col-md-4 mb-3 d-flex">
+            <div class="team team-summary w-100">
                 {% if team.image %}
                 <div class="team-image">
                     <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
